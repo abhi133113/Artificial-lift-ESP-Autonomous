@@ -1,0 +1,14 @@
+STATE-OF-THE-ART ANOMALY DETECTION MODELS
+============================================================
+
+| Model | Precision | Recall | F1 Score | Accuracy |
+|-----------------------------------|-----------|--------|----------|----------|
+| COPOD (Copula-Based)              |    83.43% | 100.00% |   90.96% |   98.00% |
+| ECOD (Empirical CDF)              |    72.95% | 100.00% |   84.36% |   96.27% |
+| SUOD (Ensemble)                   |    67.71% | 100.00% |   80.75% |   95.20% |
+| KNN (K-Nearest Neighbors)         |    53.93% | 100.00% |   70.07% |   91.40% |
+| LOF (Local Outlier Factor)        |    52.80% | 100.00% |   69.11% |   91.00% |
+| IForest (Isolation Forest)        |    51.01% | 100.00% |   67.56% |   90.33% |
+
+Best Model: COPOD (Copula-Based)
+F1 Score: 90.96%

@@ -1,0 +1,7 @@
+MODEL COMPARISON: LSTM Autoencoder vs Isolation Forest
+============================================================
+
+| Model | Precision | Recall | F1 Score | Accuracy |
+|-------|-----------|--------|----------|----------|
+| LSTM            |  88.09% | 99.83% |   93.59% |   95.90% |
+| IsoForest       |  89.59% | 97.50% |   93.38% |   95.85% |

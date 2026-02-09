@@ -1,0 +1,14 @@
+LSTM ON CLEANED REAL PUMP DATA
+==================================================
+
+Features used: 13 (including rolling stats)
+
+Precision: 10.40%
+Recall:    64.67%
+F1 Score:  17.91%
+Accuracy:  40.34%
+
+Confusion Matrix:
+              Normal  Anomaly
+Actual Normal     504      836
+Actual Anomaly     53       97

@@ -1,0 +1,23 @@
+==================================================
+EVALUATION RESULTS (Model Trained on Real Data)
+==================================================
+
+Precision: 0.6730 (67.30%)
+Recall:    1.0000 (100.00%)
+F1 Score:  0.8046 (80.46%)
+Accuracy:  0.9485 (94.85%)
+
+Confusion Matrix:
+              Predicted
+              Normal  Anomaly
+Actual Normal    1685      103
+Actual Anomaly      0      212
+
+==================================================
+COMPARISON: SYNTHETIC vs REAL DATA
+==================================================
+
+| Dataset | Precision | Recall | F1 Score | Accuracy |
+|---------|-----------|--------|----------|----------|
+| Synthetic (User) | 82.06% | 91.50% | 86.52% | 94.30% |
+| Real Pump Data   | 67.30% | 100.00% | 80.46% | 94.85% |

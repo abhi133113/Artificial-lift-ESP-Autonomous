@@ -1,0 +1,13 @@
+LSTM AUTOENCODER - REAL PUMP DATA (OPTIMIZED)
+==================================================
+
+Precision: 10.27%
+Recall:    64.00%
+F1 Score:  17.70%
+Accuracy:  40.07%
+
+Confusion Matrix:
+              Predicted
+              Normal  Anomaly
+Actual Normal     501      839
+Actual Anomaly     54       96
